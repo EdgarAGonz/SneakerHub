@@ -1,0 +1,129 @@
+body {
+    background-image: url('img/f2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0; /* Eliminar márgenes del cuerpo */
+    font-family: Arial, sans-serif;
+    background-color: #dddddd;
+}
+/* Estilos para el encabezado */
+header {
+    background-color: #232834;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    border-style: solid;
+    justify-content: center;
+}
+.logo {
+    width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto; /* Mantener la proporción de aspecto */
+    margin-right: 10px; /* Espacio entre el logo y el título*/
+    background-color: transparent;
+}
+nav {
+    background-color: #344560;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    border-style: solid;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+/*Estilos para el pie de página */
+footer {
+    background-color: #344560;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    border-style: double;
+}
+/* Estilos para la sección de misión y visión */
+.mision-vision {
+    display: flex;
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: flex-start; /* Alinear al inicio verticalmente */
+    margin-top: 20px;
+}
+
+/* Estilos para la división de misión */
+.mision {
+    flex-basis: calc(50% - 20px); /* Ancho del 50% menos el espacio entre elementos */
+    color: #000000;
+    padding: 20px;
+    border: 0px solid #ddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+/* Estilos para la división de visión */
+.vision {
+    flex-basis: calc(50% - 20px); /* Ancho del 50% menos el espacio entre elementos */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+/* Estilos para el título de misión y visión */
+.mision h2,
+.vision h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el párrafo de misión y visión */
+.mision p,
+.vision p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 15px;
+}
+.banner {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+.valores {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #ddd;
+    border-radius: 25px;
+}
+
+.valores h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.valores ul {
+    list-style: none;
+    padding: 0;
+}
+
+.valores li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+

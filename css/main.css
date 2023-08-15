@@ -1,0 +1,152 @@
+/* Estilos generales */
+body {
+    background-image: url('img/f2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0; /* Eliminar márgenes del cuerpo */
+    font-family: Arial, sans-serif;
+    background-color: #dddddd;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #232834;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    border-style: solid;
+    justify-content: center;
+}
+.logo {
+    width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto; /* Mantener la proporción de aspecto */
+    margin-right: 10px; /* Espacio entre el logo y el título*/
+    background-color: transparent;
+}
+header h1{
+    margin: 0;
+    font-size: 2em;
+}
+.dropbtn{
+    border-radius: 25px;
+    background-color: #e9544c;
+    color: white;
+    border-style: dotted;
+    padding: 10px;
+    align-items: center;
+    text-transform: uppercase;
+}
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #344560;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    border-style: solid;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+/* Estilos para el contenedor principal */
+.container {
+    display: flex;
+}
+/* Estilos para la barra lateral */
+.sidebar {
+    background-color: #e9544c;
+    color: #ecf0f1;
+    width: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border-style: solid;
+    margin: 5px;
+    text-align: center;
+}
+/* Estilos para los enlaces en la barra lateral */
+.sidebar a {
+    color: #ecf0f1;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+    transition: 0.3s;
+}
+/* Cambio de color al pasar el cursor */
+.sidebar a:hover {
+    background-color: #344560;
+    color: #fff;
+    border-radius: 35px;
+}
+.main-content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow:  3px 2px 2px rgba(63, 9, 9, 0.5);
+}
+/* Estilos para el pie de página */
+footer {
+    background-color: #344560;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    border-style: double;
+}
+/* Estilos para la tabla */
+table {
+    border-collapse: collapse; /* Fusionar bordes de celdas */
+    width: 100%;
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilos para los encabezados de tabla */
+thead th {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para las celdas del cuerpo de tabla */
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Borde inferior en celdas */
+}
+
+/* Estilos para las celdas con descuentos */
+tbody td:nth-child(2) {
+    text-align: center; /* Alinear números al centro */
+    font-weight: bold; /* Texto en negrita */
+    color: #e74c3c; /* Color de texto para descuentos */
+}
+
+/* Estilos para filas pares */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Fondo gris en filas pares */
+}
+
+/* Estilos para filas al pasar el cursor */
+tbody tr:hover {
+    background-color: #ddd; /* Fondo gris claro al pasar el cursor */
+}
+
+

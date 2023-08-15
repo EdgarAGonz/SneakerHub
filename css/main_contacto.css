@@ -1,0 +1,167 @@
+body {
+    background-image: url('img/f2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0; /* Eliminar márgenes del cuerpo */
+    font-family: Arial, sans-serif;
+    background-color: #dddddd;
+}
+/* Estilos para el encabezado */
+header {
+    background-color: #232834;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    border-style: solid;
+    justify-content: center;
+}
+.logo {
+    width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto; /* Mantener la proporción de aspecto */
+    margin-right: 10px; /* Espacio entre el logo y el título*/
+    background-color: transparent;
+}
+nav {
+    background-color: #344560;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    border-style: solid;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+/*Estilos para el pie de página */
+footer{
+    background-color: #344560;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    border-style: double;
+}
+/* Estilos para los iconos de redes sociales */
+.icons {
+    text-align: center; /* Centrar los iconos horizontalmente */
+    margin: 10px;
+    padding: 10px;
+    font-size: 50px; /* Tamaño de los iconos */
+    margin: 0 25px; /* Espacio entre los iconos */
+    color: #000000; /* Color de los iconos */
+}
+.social-fa:hover {
+    color: #2f60e6; /* Cambio de color al pasar el cursor */
+}
+.social-tw:hover {
+    color: #89a2e9; /* Cambio de color al pasar el cursor */
+}
+.social-in:hover {
+    color: #df4ec7; /* Cambio de color al pasar el cursor */
+}
+.social-wp:hover {
+    color: #17cc44; /* Cambio de color al pasar el cursor */
+}
+/* Estilos para la información de contacto */
+.contact-info {
+    background-color: #f9f9f9;
+    border: 0px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 20px;
+}
+/* Estilos para los íconos */
+.contact-info i {
+    margin-right: 10px;
+    color: #3b2e2d;
+}
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+
+

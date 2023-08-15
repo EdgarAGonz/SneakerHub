@@ -1,0 +1,92 @@
+body {
+    background-image: url('img/f2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0; /* Eliminar márgenes del cuerpo */
+    font-family: Arial, sans-serif;
+    background-color: #dddddd;
+}
+/* Estilos para el encabezado */
+header {
+    background-color: #232834;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    border-style: solid;
+    justify-content: center;
+}
+.logo {
+    width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto; /* Mantener la proporción de aspecto */
+    margin-right: 10px; /* Espacio entre el logo y el título*/
+    background-color: transparent;
+}
+nav {
+    background-color: #344560;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    border-style: solid;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+/*Estilos para el pie de página */
+footer {
+    background-color: #344560;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    border-style: double;
+}
+/* Estilos para la sección de historia */
+.historia {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Estilos para el título de la historia */
+.historia h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los párrafos de la historia */
+.historia p {
+    font-size: 25px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Estilos para la imagen de la historia */
+.historia-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; /* Centrar horizontalmente */
+    margin-top: 20px;
+}
